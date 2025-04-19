@@ -1,15 +1,32 @@
-# Student Record Manager
+# Student Record Manager 🧑‍🎓📚
 
-## Description
-The **Student Record Manager** project is a simple application to manage student records. It allows users to add, update, and view student details such as name, roll number, and marks.
+A simple Java console-based application to manage student records using core Java concepts and basic Data Structures (HashMap, Sorting, etc.).
 
-## Features
-- Add new student records
-- Update existing student records
-- View student details
+---
 
-## Installation
+## 🚀 Features
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/koushil001/Student-Record-Manager01.git
+- ➕ Add a student (Name, Age, Student ID)
+- 🔍 Search for a student by ID
+- ❌ Delete a student
+- 📋 Display all students
+- 🔄 Sort students by **name** or **age**
+
+---
+
+## 🛠️ Technologies Used
+
+- Java
+- HashMap (for fast lookup)
+- Java Collections (ArrayList, Comparator)
+- Object-Oriented Programming (OOP)
+
+---
+
+## 📁 Project Structure
+
+```bash
+StudentRecordManager/
+├── Student.java           # POJO class for student data
+├── StudentManager.java    # Logic for managing students
+└── Main.java              # User menu and input handling
